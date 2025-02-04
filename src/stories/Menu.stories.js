@@ -3,7 +3,7 @@ import Menu from "../components/Menu.vue"
 
 
 export default {
-    title: 'Components/Menu',
+    title: 'Components/MyMenu',
     components: Menu,
     argTypes: {
         headingTitle: {

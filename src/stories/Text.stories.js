@@ -1,8 +1,8 @@
 import Text from "../components/Text.vue";
 
 export default {
-  title: 'Components/MyText', // Tiêu đề sẽ xuất hiện trong Storybook
-  component: Text,          // Định nghĩa component
+  title: 'Components/MyText',
+  component: Text,
   argTypes: {
     tag: { control: { type: 'text' }, description: 'HTML tag to use (e.g., p, span, h1)' },
     text: { control: { type: 'text' }, description: 'The content of the text' },

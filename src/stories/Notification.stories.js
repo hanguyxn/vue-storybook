@@ -1,8 +1,8 @@
 import Notification from '../components/Notification.vue';
 
 export default {
-  title: 'Components/Notification', // Tiêu đề hiển thị trong Storybook
-  component: Notification,          // Component bạn muốn viết story
+  title: 'Components/MyNotification',
+  component: Notification,
   argTypes: {
     notiType: { 
       control: { type: 'select', options: ['message', 'alert'] },
