@@ -18,7 +18,14 @@ const props = defineProps({
                 <slot name="sider">Default layout sidebar</slot>
             </aside>
             <main class="content">
-                <slot name="content">Default layout content</slot>
+                <slot name="content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fugit reiciendis tenetur aliquid earum qui voluptates sint quidem corrupti ullam perferendis nihil illum error, exercitationem, laborum culpa consectetur iusto tempora.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fugit reiciendis tenetur aliquid earum qui voluptates sint quidem corrupti ullam perferendis nihil illum error, exercitationem, laborum culpa consectetur iusto tempora.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fugit reiciendis tenetur aliquid earum qui voluptates sint quidem corrupti ullam perferendis nihil illum error, exercitationem, laborum culpa consectetur iusto tempora.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fugit reiciendis tenetur aliquid earum qui voluptates sint quidem corrupti ullam perferendis nihil illum error, exercitationem, laborum culpa consectetur iusto tempora.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fugit reiciendis tenetur aliquid earum qui voluptates sint quidem corrupti ullam perferendis nihil illum error, exercitationem, laborum culpa consectetur iusto tempora.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae fugit reiciendis tenetur aliquid earum qui voluptates sint quidem corrupti ullam perferendis nihil illum error, exercitationem, laborum culpa consectetur iusto tempora.</p>
+                </slot>
             </main>
         </div>
         
